@@ -43,7 +43,34 @@ var fruta = {nome: "maca", cor: "vermelha"}
  console.log(fruta.cor)
  */
 
+/*
+DICIONARIO DE LISTAS:
+
 var frutas = [{nome: "maca", cor: "vermelha"}, {nome: "uva", cor: "roxa"}]
 console.log(frutas)
-console.log(frutas[1].cor)
+console.log(frutas[1].cor) */
+
+
+//CONDICIONAIS, LAÇOS DE REPETIÇÃO E DATE
+
+/*LACO DE REPETIÇÃO
+var count = 0;
+while (count < 5){
+    console.log(count);
+    count = count + 1
+    //count++
+} */
+
+/*CONDICIONAIS
+var idade = prompt("qual a sua idade? ")
+if (idade >= 18){
+    alert("maior de idade")
+}else{
+    alert("menor de idade");
+} */
  
+
+var count
+for(count = 0; count <= 5; count++){
+    alert(count);
+};
