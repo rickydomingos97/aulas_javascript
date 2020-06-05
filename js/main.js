@@ -1,13 +1,17 @@
 function clicou(){
-    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar!<b>"
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar!<b>";
 }
 
 function redirecionar(){
     //window.open abre numa outra janela
-    //window.open("http://google.com");
-    
+    window.open("http://google.com");
+
     //location.href abre na mesma janela
-    window.location.href = "http://amazon.com.br";
+    //window.location.href = "http://amazon.com.br";
+}
+
+function trocar(){
+    document.getElementById("mouseover").innerHTML = "obrigado por passar o mouse"
 }
 
 /*
