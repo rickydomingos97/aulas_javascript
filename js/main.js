@@ -10,13 +10,17 @@ function redirecionar(){
     //window.location.href = "http://amazon.com.br";
 }
 
-function trocar(){
-    document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse";
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse";
+    elemento.innerHTML = "obrigado por passar o mouse"
 }
 
-function voltar(){
-    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+function voltar(elemento){
+   //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+   elemento.innerHTML = "passe o mouse aqui"
 }
+
+
 
 /*
 function soma(n1, n2){
