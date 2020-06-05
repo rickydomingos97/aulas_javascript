@@ -1,4 +1,6 @@
-
+function clicou(){
+    alert("Obrigado por clicar");
+}
 
 /*
 function soma(n1, n2){
