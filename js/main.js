@@ -1,3 +1,7 @@
+function soma(n1, n2)
+
+
+
 /* CODIGOS AULA 1
 var nome = "ricardo domingos"
 var idade = 38
@@ -69,8 +73,13 @@ if (idade >= 18){
     alert("menor de idade");
 } */
  
-
+/*Laco de repetição com incremento de 1
 var count
 for(count = 0; count <= 5; count++){
     alert(count);
-};
+}*/
+
+//var d = new Date();
+//alert(d.getMonth()+1);
+//alert(d.getMinutes())
+//alert(d.getHours())
