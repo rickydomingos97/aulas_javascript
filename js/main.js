@@ -1,3 +1,6 @@
+
+
+/*
 function soma(n1, n2){
     return n1 + n2
 }
@@ -14,9 +17,7 @@ function validaIdade(idade){
 
 var idade = prompt("qual a sua idade?");
 console.log(validaIdade(idade));
-
-
-
+*/
 
 /* CODIGOS AULA 1
 var nome = "ricardo domingos"
