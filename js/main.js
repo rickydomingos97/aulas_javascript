@@ -20,6 +20,10 @@ function voltar(elemento){
    elemento.innerHTML = "passe o mouse aqui"
 }
 
+function load(){
+    alert("pagina carregada")
+}
+
 
 
 /*
