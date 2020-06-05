@@ -11,7 +11,11 @@ function redirecionar(){
 }
 
 function trocar(){
-    document.getElementById("mouseover").innerHTML = "obrigado por passar o mouse"
+    document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse";
+}
+
+function voltar(){
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
 }
 
 /*
