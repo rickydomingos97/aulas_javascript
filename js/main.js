@@ -24,6 +24,10 @@ function load(){
     alert("pagina carregada")
 }
 
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
 
 
 /*
