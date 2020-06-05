@@ -1,5 +1,13 @@
 function clicou(){
-    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!"
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar!<b>"
+}
+
+function redirecionar(){
+    //window.open abre numa outra janela
+    //window.open("http://google.com");
+    
+    //location.href abre na mesma janela
+    window.location.href = "http://amazon.com.br";
 }
 
 /*
